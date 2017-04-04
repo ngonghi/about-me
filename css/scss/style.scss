@@ -1,3 +1,30 @@
-.bt {
-	background-color: red;
-}
+// some useful style resets and initial form styling
+@import 'base/normalize';
+@import 'utils/reset/spacing';
+@import 'utils/reset/form';
+
+//Variables
+@import 'utils/variables';
+
+// system-wide styles, mixins and placeholders
+@import 'utils/mixins';
+@import 'utils/grid/block-grid';
+@import 'utils/grid/columns';
+@import 'utils/grid/width-push-pull';
+
+
+// CORE STYLING
+@import 'base/core';
+
+// OVERRIDING UTILs
+@import 'utils/flush-first';
+@import 'utils/helper-classes';
+@import 'utils/styleguide';
+@import 'utils/visible';
+
+//Components
+@import 'components/media';
+
+//Layout
+@import 'layout/grid';
+@import 'layout/footer';
